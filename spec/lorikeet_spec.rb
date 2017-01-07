@@ -22,12 +22,8 @@ class Observer
 
   attr_reader :received
 
-  def callback(counter)
-    @received = counter
-  end
-
-  def receive(counter)
-    @received = counter
+  def callback(context)
+    @received = context
   end
 end
 
