@@ -20,6 +20,8 @@ Or without bundler:
 
     $ gem install lorikeet
 
-For RubyMotion, you must also require the gem inside your Gemfile:
+For RubyMotion, you must also require the gem inside your Rakefile:
 
-    $ require 'lorikeet'
+```ruby
+require 'lorikeet'
+```
